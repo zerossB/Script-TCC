@@ -1,0 +1,2 @@
+class XlsxExeption(Exception):
+    pass

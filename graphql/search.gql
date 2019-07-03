@@ -1,0 +1,5 @@
+{
+	search(query: "license:#license", type: REPOSITORY, first: 10) {
+		repositoryCount 
+	}
+}

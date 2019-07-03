@@ -1,0 +1,43 @@
+{
+    "data": {
+        "repository": {
+            "nameWithOwner": "adobe/brackets",
+            "primaryLanguage": {
+                "name": "JavaScript"
+            },
+            "forkCount": 6398,
+            "stargazers": {
+                "totalCount": 29793
+            },
+            "watchers": {
+                "totalCount": 1615
+            },
+            "commits": {
+                "history": {
+                    "totalCount": 17739
+                }
+            },
+            "branches": {
+                "totalCount": 174
+            },
+            "releases": {
+                "totalCount": 67
+            },
+            "issue_open": {
+                "totalCount": 2342
+            },
+            "issue_closed": {
+                "totalCount": 6951
+            },
+            "pull_open": {
+                "totalCount": 112
+            },
+            "pull_closed": {
+                "totalCount": 1062
+            },
+            "pull_merged": {
+                "totalCount": 4302
+            }
+        }
+    }
+}

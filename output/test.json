@@ -1,0 +1,43 @@
+{
+    "data": {
+        "repository": {
+            "nameWithOwner": "facebook/folly",
+            "primaryLanguage": {
+                "name": "C++"
+            },
+            "forkCount": 3156,
+            "stargazers": {
+                "totalCount": 13166
+            },
+            "watchers": {
+                "totalCount": 965
+            },
+            "commits": {
+                "history": {
+                    "totalCount": 7284
+                }
+            },
+            "branches": {
+                "totalCount": 2
+            },
+            "releases": {
+                "totalCount": 0
+            },
+            "issue_open": {
+                "totalCount": 139
+            },
+            "issue_closed": {
+                "totalCount": 452
+            },
+            "pull_open": {
+                "totalCount": 32
+            },
+            "pull_closed": {
+                "totalCount": 541
+            },
+            "pull_merged": {
+                "totalCount": 3
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+	repository(owner: "#owner", name: "#repo") {
+		nameWithOwner 
+		primaryLanguage {
+			name
+		}
+		forkCount 
+		stargazers {
+			totalCount
+		}
+		watchers {
+			totalCount
+		}
+		commits: object(expression: "master") {
+			... on Commit {
+				history {
+					totalCount
+				}
+			}
+		}
+		branches: refs(first: 0, refPrefix: "refs/heads/") {
+			totalCount
+		}
+		releases {
+			totalCount
+		}
+		issue_open: issues(states: OPEN) {
+			totalCount
+		}
+		issue_closed: issues(states: CLOSED) {
+			totalCount
+		}
+		pull_open: pullRequests(states: OPEN) {
+			totalCount
+		}
+		pull_closed: pullRequests(states: CLOSED) {
+			totalCount
+		}
+		pull_merged: pullRequests(states: MERGED) {
+			totalCount
+		}
+	}
+}
