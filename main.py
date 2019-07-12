@@ -100,7 +100,7 @@ def main():
                     rep['data']['repository']['forkCount'],
                     rep['data']['repository']['watchers']['totalCount'],
                     rep['data']['repository']['stargazers']['totalCount'],
-                    rep['data']['repository']['commits']['history']['totalCount'],
+                    0 if rep['data']['repository']['commits'] is None else rep['data']['repository']['commits']['history']['totalCount'] ,
                     contributors,
                     rep['data']['repository']['branches']['totalCount'],
                     rep['data']['repository']['releases']['totalCount'],
